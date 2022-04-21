@@ -1,0 +1,108 @@
+@media screen and (max-width :1024px) {
+    .nav-items {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width :768px) {
+    .nav-items {
+        width: 90%;
+        margin-left: 7%;
+    }
+    .response-btn {
+        left: 100%;
+    }
+}
+
+@media screen and (max-width :425px){
+    .top-navbar{
+        height: 30px;
+    }
+    
+    .seach-box{
+        display: none;
+    }
+    
+    .nav-items {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .nav-icons {
+        width: 55%;
+        height: 15px
+    }
+
+    .profile-icon {
+        width: 15px;
+    }
+    
+    .main-sec {
+        width: 100%;
+        max-width: 1000px;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 30px;
+    }
+    
+    .two-sec{
+        padding: 0;
+        margin-top: 25px;
+    }
+    
+    .right{
+        display: none;
+    }
+
+    .post-sec{
+        margin-top: 15px;
+    }
+
+    .post-head {
+        height: 40px;
+        padding: 5px
+    }
+
+    .post {
+        height: 400px;
+    }
+
+    .react-sec {
+        height: 40px;
+    }
+
+    .likes {
+        font-weight: bold;
+        margin-top: 5px;
+    }
+    .post-info {
+        padding: 10px;
+    }
+
+    .coment-sec {
+        width: 98%;
+        height: 40px;
+    }
+
+}
+
+@media screen and (max-width :375px){
+    .nav-icons {
+        width: 65%;
+    }
+
+    .two-sec {
+        padding: 0;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width :320px){
+    .nav-icons {
+        width: 72%;
+    }
+
+    .post-sec {
+        margin-top: -1px;
+    }
+}
